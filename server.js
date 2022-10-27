@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: false }));
 
 //MongoDb Connection Config
 mongoose
-  .connect("mongodb://localhost:27017/user_db")
+  .connect("mongodb://localhost:27017/user_au")
   .then((res) => {
     console.log("MongoDb Connected");
   })
